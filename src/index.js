@@ -10,7 +10,7 @@ import esEs from 'antd/es/locale/es_ES';
 ReactDOM.render(
   <React.StrictMode>
       <ConfigProvider locale={esEs}>
-            <App />
+            <App/>
       </ConfigProvider>
   </React.StrictMode>,
   document.getElementById('root')
